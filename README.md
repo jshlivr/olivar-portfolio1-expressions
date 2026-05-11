@@ -1,9 +1,14 @@
 Program: Study Reward System Calculator
+
 Purpose : Calculates maximum amount of reward (in pesos) based on study hours in a week.
+
 Rule : 1 hour studied = 50 pesos allowance.
 
+
 #Input of number of hours for each day of the week
+
 #Instead of int I used float so it can have decimal places instead of rounding it off
+
 print('Enter the number of hours you studied')
 hours1_input = float(input('Monday : '))
 hours2_input = float(input('Tuesday : '))
